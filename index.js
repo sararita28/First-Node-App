@@ -6,12 +6,10 @@ const port = process.env.PORT || 8080
 
 app.get('/', (req, res) => {
     res.sendFile(path.join(__dirname, 'index.html'))
-    next()
 })
 
 app.get('/index.html', (req, res) => {
     res.sendFile(path.join(__dirname, 'index.html'))
-    next()
 })
 
 app.get('/about.html', (req, res) => {
