@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: 'Roboto', sans-serif;
+            background-color: beige;
+            color: black;
+
+        }
+        .buttons{
+            display:inline-block;
+            margin: 10vh auto auto 30vw;
+        }
+        .buttons a {
+            text-decoration: none;
+        }
+        #home, #about, #contact {
+            font-size: 25px;
+            cursor: pointer;
+            margin-left: 5vw;
+            padding: 15px;
+            border-radius: 20px;
+        }
+        #home:hover, #about:hover, #contact:hover {
+            opacity:0.6;
+        }
+        h1 {
+            position: relative;
+            margin: 10vh auto auto 40vw;
+            font-weight:bolder;
+        }
+        h2 {
+            position: absolute;
+            margin: 5vh auto auto 41.5vw;
+        }
+        h3 {
+            position: absolute;
+            margin: 15vh auto auto 35vw;
+            border: solid;
+            border-width: 1px;
+            padding:20px;
+            font-size: 25px;
+        }
+    </style>
+</head>
+<body>
+    <div class="buttons">
+        <button id="home"><a href="index.html">Home</a></button> 
+        <button id="about"><a href="about.html">About</a></button> 
+        <button id="contact"><a href="contact-me.html">Contact</a></button>
+    </div>
+    <h1><b>THE ODIN PROJECT</b></h1>
+    <h2><i>Basic Informational Site</i></h2>
+    <h3>This project was completed as an <br>assignment partial fulfillment for the <br>NodeJS course of 'The Odin Project'</h3>
+</body>
+</html>

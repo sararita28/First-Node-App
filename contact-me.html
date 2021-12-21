@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact-me</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: 'Roboto', sans-serif;
+            background-color: beige;
+            color: black;
+
+        }
+
+        .buttons {
+            display: inline-block;
+            margin: 10vh auto auto 30vw;
+        }
+
+        .buttons a {
+            text-decoration: none;
+        }
+
+        #home,
+        #about,
+        #contact {
+            font-size: 25px;
+            cursor: pointer;
+            margin-left: 5vw;
+            padding: 15px;
+            border-radius: 20px;
+        }
+
+        #home:hover,
+        #about:hover,
+        #contact:hover {
+            opacity: 0.6;
+        }
+
+        h1 {
+            position: relative;
+            margin: 10vh auto auto 42vw;
+            font-weight: bolder;
+        }
+
+        .links {
+            position: absolute;
+            margin: 10vh auto auto 31vw;
+        }
+
+        .links a {
+            text-decoration: none;
+            font-size: 25px;
+            margin:20px;
+        }
+
+        .links button {
+            border: none;
+            font-size: 22px;
+        }
+        .links button:hover {
+            transform: scale(1.1);
+            opacity: 0.5;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="buttons">
+        <button id="home"><a href="/index.html">Home</a></button>
+        <button id="about"><a href="/about.html">About</a></button>
+        <button id="contact"><a href="/contact-me.html">Contact</a></button>
+    </div>
+    <h1>The Odin Project</h1>
+    <div class="links">
+        <button id="website"><a href="https://www.theodinproject.com/" target="#">Website</a></button>
+        <button><a href="https://discord.com/invite/V75WSQG" target="#">Discord</a></button>
+        <button><a href="https://www.facebook.com/theodinproject/" target="#">Facebook</a></button>
+        <button><a href="https://twitter.com/TheOdinProject" target="#">Twitter</a></button>
+    </div>
+    </div>
+</body>
+
+</html>

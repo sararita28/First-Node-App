@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+    
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: 'Roboto', sans-serif;
+            background-color: beige;
+            color: black;
+    
+        }
+    
+        .buttons {
+            display: inline-block;
+            margin: 10vh auto auto 30vw;
+        }
+    
+        .buttons a {
+            text-decoration: none;
+        }
+    
+        #home,
+        #about,
+        #contact {
+            font-size: 25px;
+            cursor: pointer;
+            margin-left: 5vw;
+            padding: 15px;
+            border-radius: 20px;
+        }
+    
+        #home:hover,
+        #about:hover,
+        #contact:hover {
+            opacity: 0.6;
+        }
+    
+        h1 {
+            position: relative;
+            margin: 10vh auto auto 38vw;
+            font-weight: bolder;
+        }
+    
+        h3 {
+            position: absolute;
+            margin: 10vh 20vw auto 20vw;
+            border: solid;
+            border-width: 1px;
+            padding: 20px;
+            font-size: 22px;
+            justify-content: center;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="buttons">
+        <button id="home"><a href="/index.html">Home</a></button>
+        <button id="about"><a href="/about.html">About</a></button>
+        <button id="contact"><a href="/contact-me.html">Contact</a></button>
+    </div>
+    <h1>Assignment Instructions:</h1>
+    <h3>Make a project directory and create the following files inside that directory: <br>
+    index.html,
+    about.html,
+    contact-me.html,
+    404.html <br>
+    Create your node.js server file index.js and add the code needed to serve the right page according to the url. <br>
+    localhost:8080 should take users to index.html <br>
+    localhost:8080/about should take users to about.html <br>
+    localhost:8080/contact-me should take users to contact-me.html <br>
+    404.html should display any time the user tries to go to a page not listed above.</h3>
+</body>
+</html>
